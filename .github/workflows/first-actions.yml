@@ -1,11 +1,11 @@
-#first git action running
+
 name: My First GitHub Actions
 
 on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       matrix:
